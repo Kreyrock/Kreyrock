@@ -1,0 +1,28 @@
+{
+  // Render all whitespaces
+  "editor.renderWhitespace": "all",
+
+  // JSON specific
+  "[json]": {
+    "editor.tabSize": 2,
+  },
+
+   // Rustlang specific
+  "[rust]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "on"
+  },
+  "cSpell.diagnosticLevel": "Error",
+  "cSpell.allowCompoundWords": true,
+  "cSpell.flagWords": [
+    "kreyen"
+  ],
+  "cSpell.ignoreWords": [
+    "Krey",
+    "Hrbek",
+    "kreyren",
+    "sysfetch",
+    "FSFE"
+  ],
+}

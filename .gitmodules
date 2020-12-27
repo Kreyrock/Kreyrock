@@ -1,0 +1,4 @@
+[submodule "sysfetch"]
+	path = src/sysfetch
+	url = https://github.com/Kreyrock/sysfetch
+	branch = alpha

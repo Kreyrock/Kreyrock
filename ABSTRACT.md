@@ -1,0 +1,2 @@
+# End-Goal
+Software that can be installed on any mission critical turing complete system that sandboxes other operating systems or userlands while providing their commands from one terminal through the use of `PATH` variable.
