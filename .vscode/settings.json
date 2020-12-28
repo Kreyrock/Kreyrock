@@ -25,4 +25,49 @@
     "sysfetch",
     "FSFE"
   ],
+  // Configuration for todo-tree extension
+  "todo-tree.filtering.includeHiddenFiles": true,
+  /// To define tag groups
+  "todo-tree.general.tagGroups": {
+    "FIXME": [
+        "FIXME-DOCS",
+        "FIXME-QA",
+    ],
+  },
+  "todo-tree.general.tags": [
+    "FIXME",
+    "TODO",
+    "DNM",
+    "DNC",
+    "DNR"
+  ],
+  // NOTE: Icons has to be valid codicons (https://microsoft.github.io/vscode-codicons/dist/codicon.html)
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "foreground": "orange",
+      "icon": "report",
+    },
+    "TODO": {
+      "foreground": "turquoise",
+      "icon": "tasklist",
+    },
+    "DOCS": {
+      "foreground:": "blue",
+      "icon": "repo"
+    },
+    "DNM": {
+      "foreground": "red",
+      "icon": "alert"
+    },
+    "DNR": {
+      "foreground": "red",
+      "icon": "alert"
+    },
+    "DNC": {
+      "foreground": "red",
+      "icon": "alert"
+    }
+  },
+  "todo-tree.highlights.enabled": false,
+  "better-comments.highlightPlainText": true,
 }

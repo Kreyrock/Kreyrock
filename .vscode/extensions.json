@@ -15,6 +15,7 @@
         "streetsidesoftware.code-spell-checker",
         "coenraads.bracket-pair-colorizer-2",
         "oderwat.indent-rainbow",
-        "aaron-bond.better-comments"
+        "aaron-bond.better-comments",
+        "gruntfuggly.todo-tree"
     ]
 }
