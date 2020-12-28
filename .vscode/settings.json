@@ -26,14 +26,13 @@
     "FSFE"
   ],
   // Configuration for todo-tree extension
-  "todo-tree.filtering.includeHiddenFiles": true,
   /// To define tag groups
-  "todo-tree.general.tagGroups": {
-    "FIXME": [
-        "FIXME-DOCS",
-        "FIXME-QA",
-    ],
-  },
+  // "todo-tree.general.tagGroups": {
+  //   "FIXME": [
+  //       "FIXME-DOCS",
+  //       "FIXME-QA",
+  //   ],
+  // },
   "todo-tree.general.tags": [
     "FIXME",
     "TODO",
@@ -46,28 +45,38 @@
     "FIXME": {
       "foreground": "orange",
       "icon": "report",
+      "fontWeight": "bold"
     },
     "TODO": {
       "foreground": "turquoise",
       "icon": "tasklist",
+      "fontWeight": "bold"
     },
     "DOCS": {
       "foreground:": "blue",
-      "icon": "repo"
+      "icon": "repo",
+      "fontWeight": "bold"
     },
     "DNM": {
       "foreground": "red",
-      "icon": "alert"
+      "icon": "alert",
+      "fontWeight": "bold"
     },
     "DNR": {
       "foreground": "red",
-      "icon": "alert"
+      "icon": "alert",
+      "fontWeight": "bold"
     },
     "DNC": {
       "foreground": "red",
-      "icon": "alert"
+      "icon": "alert",
+      "fontWeight": "bold"
     }
   },
+  // FIXME-CONTRIB(Krey): Expecting '$TAGS' instead of '(FIXME|...)' which doesn't work
+  "todo-tree.regex.regex": "(FIXME|DNC|DNM|DNR|TODO|DOCS)((\\-.*|)\\(.*\\))\\:",
+  //"todo-tree.regex.regex": "$TAGS((\\-.*|)\\(.*\\))\\:",
+  // NOTE(Krey): Used for debugging
   "todo-tree.highlights.enabled": false,
-  "better-comments.highlightPlainText": true,
+  "todo-tree.general.debug": true,
 }

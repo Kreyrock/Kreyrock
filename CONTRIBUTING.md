@@ -56,7 +56,7 @@ All code has to be:
 || ||||||||\_____ Signature
 || ||||||\_____ Subtag
 || |||||\_____ Separator
-|| \_____ Tag
+|| \_____ Keyword
 \_____ Comment declaration
 ```
 
